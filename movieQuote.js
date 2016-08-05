@@ -1,10 +1,12 @@
-function Quote(quote,source,tags,array,autoPush){
+function MovieQuote(quote,movie,year,tags,array,autoPush){
 	GeneralQuote.call(this,quote,tags,array,autoPush);
-	this.source = source;
+	this.movie = movie;
+	this.year = year;
 }
-Quote.prototype = Object.create(GeneralQuote.prototype);
+
+MovieQuote.prototype = Object.create(GeneralQuote.prototype);
 //function that returns a formated quote
-Quote.prototype.getFormatedQuote = function(){
+MovieQuote.prototype.getFormatedQuote = function(){
 	var p = $('<p></p>');
 	var quote = $('<span></span>',{
 		class:'quote',
@@ -12,7 +14,7 @@ Quote.prototype.getFormatedQuote = function(){
 	});
 	var source = $('<span></span>',{
 		class:'source',
-		text: this.source
+		text: this.movie + ', ' + this.year
 	});
 	
 	//append created elements to slide

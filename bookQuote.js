@@ -1,10 +1,12 @@
-function Quote(quote,source,tags,array,autoPush){
+function BookQuote(quote,author,book,tags,array,autoPush){
 	GeneralQuote.call(this,quote,tags,array,autoPush);
-	this.source = source;
+	this.author = author;
+	this.book = book;
 }
-Quote.prototype = Object.create(GeneralQuote.prototype);
+
+BookQuote.prototype = Object.create(GeneralQuote.prototype);
 //function that returns a formated quote
-Quote.prototype.getFormatedQuote = function(){
+BookQuote.prototype.getFormatedQuote = function(){
 	var p = $('<p></p>');
 	var quote = $('<span></span>',{
 		class:'quote',
@@ -12,7 +14,7 @@ Quote.prototype.getFormatedQuote = function(){
 	});
 	var source = $('<span></span>',{
 		class:'source',
-		text: this.source
+		text: this.author + ', ' + this.book
 	});
 	
 	//append created elements to slide
@@ -24,3 +26,4 @@ Quote.prototype.getFormatedQuote = function(){
 	//returns formated quote
 	return p;
 }
+

@@ -38,9 +38,10 @@ var quote5 = new Quote(
 	quotes
 );
 
-var quote6 = new Quote(
+var quote6 = new BookQuote(
 	'Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure. It is our light, not our darkness that most frightens us.',
 	'Marianne Williamson',
+	'Our Deepest Fear',
 	['inspiring','books'],
 	quotes
 );
@@ -256,9 +257,10 @@ var quote35 = new Quote(
 	quotes
 );
 
-var quote36 = new Quote(
+var quote36 = new MovieQuote(
 	'Mama always said life was like a box of chocolates. You never know what you\'re gonna get.',
 	'Forest Gump',
+	1994,
 	['life','movies'],
 	quotes
 );
@@ -340,163 +342,186 @@ var quote47 = new Quote(
 	quotes
 );
 
-var quote48 = new Quote(
+var quote48 = new BookQuote(
 	'Life is to be lived, not controlled; and humanity is won by continuing to play in face of certain defeat.',
-	'Ralph Ellison, Invisible Man',
+	'Ralph Ellison', 
+	'Invisible Man',
 	['life','books'],
 	quotes
 );
 
-var quote49 = new Quote(
+var quote49 = new BookQuote(
 	'We were the people who were not in the papers. We lived in the blank white spaces at the edges of print. It gave us more freedom. We lived in the gaps between the stories.',
-	'Margaret Atwood, The Handmaid\'s Tale',
+	'Margaret Atwood', 
+	'The Handmaid\'s Tale',
 	['books'],
 	quotes
 );
 
-var quote50 = new Quote(
+var quote50 = new BookQuote(
 	'It sounds plausible enough tonight, but wait until tomorrow. Wait for the common sense of the morning.',
-	'H.G. Wells, The Time Machine',
+	'H.G. Wells',
+	'The Time Machine',
 	['books'],
 	quotes
 );
 
-var quote51 = new Quote(
+var quote51 = new BookQuote(
 	'It\'s much better to do good in a way that no one knows anything about it.',
-	'Leo Tolstoy, Anna Karenina',
+	'Leo Tolstoy',
+	'Anna Karenina',
 	['books'],
 	quotes
 );
 
-var quote52 = new Quote(
+var quote52 = new BookQuote(
 	'Life appears to me too short to be spent in nursing animosity or registering wrongs.',
-	'Charlotte Brontë, Jane Eyre',
+	'Charlotte Brontë',
+	'Jane Eyre',
 	['books'],
 	quotes
 );
 
-var quote53 = new Quote(
+var quote53 = new BookQuote(
 	'Finally, from so little sleeping and so much reading, his brain dried up and he went completely out of his mind.',
-	'Miguel de Cervantes Saavedra, Don Quixote',
+	'Miguel de Cervantes Saavedra',
+	'Don Quixote',
 	['books'],
 	quotes
 );
 
-var quote54 = new Quote(
+var quote54 = new BookQuote(
 	'Memories warm you up from the inside. But they also tear you apart.',
-	'Haruki Murakami, Kafka on the Shore',
+	'Haruki Murakami',
+	'Kafka on the Shore',
 	['books'],
 	quotes
 );
 
-var quote55 = new Quote(
+var quote55 = new BookQuote(
 	'History, Stephen said, is a nightmare from which I am trying to awake.',
-	'James Joyce, Ulysses',
+	'James Joyce',
+	'Ulysses',
 	['books'],
 	quotes
 );
 
-var quote56 = new Quote(
+var quote56 = new BookQuote(
 	'It is a great misfortune to be alone, my friends; and it must be believed that solitude can quickly destroy reason.',
-	'Jules Verne, The Mysterious Island',
+	'Jules Verne',
+	'The Mysterious Island',
 	['books'],
 	quotes
 );
 
-var quote57 = new Quote(
+var quote57 = new BookQuote(
 	'And meanwhile time goes about its immemorial work of making everyone look and feel like shit.',
-	'Martin Amis, London Fields',
+	'Martin Amis',
+	'London Fields',
 	['books'],
 	quotes
 );
 
-var quote58 = new Quote(
+var quote58 = new BookQuote(
 	'Nowadays people know the price of everything and the value of nothing.',
-	'Oscar Wilde, The Picture Of Dorian Gray',
+	'Oscar Wilde',
+	'The Picture Of Dorian Gray',
 	['books'],
 	quotes
 );
 
-var quote59 = new Quote(
+var quote59 = new MovieQuote(
 	'Love means never having to say you\'re sorry.',
 	'Love Story',
+	1970,
 	['movies','love'],
 	quotes
 );
 
-var quote60 = new Quote(
+var quote60 = new MovieQuote(
 	'They may take our lives, but they will never take our freedom',
 	'Braveheart',
+	1995,
 	['movies'],
 	quotes
 );
 
-var quote61 = new Quote(
+var quote61 = new MovieQuote(
 	'When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.',
 	'When Harry Met Sally',
+	1989,
 	['life','love','movies'],
 	quotes
 );
 
-var quote62 = new Quote(
+var quote62 = new MovieQuote(
 	'If you let my daughter go now, that\'ll be the end of it. I will not look for you, I will not pursue you. But if you don\'t, I will look for you, I will find you, and I will kill you.',
 	'Taken',
+	2008,
 	['movies','love'],
 	quotes
 );
 
-var quote63 = new Quote(
+var quote63 = new MovieQuote(
 	'My name is Maximus Decimus Meridius, commander of the Armies of the North, General of the Felix Legions and loyal servant to the true emperor, Marcus Aurelius. Father to a murdered son, husband to a murdered wife. And I will have my vengeance, in this life or the next.',
 	'Gladiator',
+	2000,
 	['movies'],
 	quotes
 );
 
-var quote64 = new Quote(
+var quote64 = new MovieQuote(
 	'Get your stinking paws off me, you damned dirty ape!',
 	'Planet of The Apes',
+	1968,
 	['movies'],
 	quotes
 );
 
-var quote65 = new Quote(
+var quote65 = new MovieQuote(
 	'Chewie, we\'re home.',
 	'Star Wars Episode VII: The Force Awakens',
+	2015,
 	['movies'],
 	quotes
 );
 
-var quote66 = new Quote(
+var quote66 = new MovieQuote(
 	'It was Beauty killed the Beast.',
 	'King Kong',
+	1933,
 	['movies'],
 	quotes
 );
 
-var quote67 = new Quote(
+var quote67 = new MovieQuote(
 	'I\'m just one stomach flu away from my goal weight.',
 	'The Devil Wears Prada',
+	2006,
 	['movies'],
 	quotes
 );
 
-var quote68 = new Quote(
+var quote68 = new MovieQuote(
 	'There\'s a passage I got memorized. Ezekiel 25:17. "The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of the darkness, for he is truly his brother\'s keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who attempt to poison and destroy My brothers. And you will know I am the Lord when I lay My vengeance upon you." Now... I been sayin\' that shit for years. And if you ever heard it, that meant your ass. You\'d be dead right now. I never gave much thought to what it meant. I just thought it was a cold-blooded thing to say to a motherfucker before I popped a cap in his ass. But I saw some shit this mornin\' made me think twice. See, now I\'m thinking: maybe it means you\'re the evil man. And I\'m the righteous man. And Mr. 9mm here... he\'s the shepherd protecting my righteous ass in the valley of darkness. Or it could mean you\'re the righteous man and I\'m the shepherd and it\'s the world that\'s evil and selfish. And I\'d like that. But that shit ain\'t the truth. The truth is you\'re the weak. And I\'m the tyranny of evil men. But I\'m tryin\', Ringo. I\'m tryin\' real hard to be the shepherd.',
 	'Pulp Fiction',
+	1994,
 	['movies'],
 	quotes
 );
 
-var quote69 = new Quote(
+var quote69 = new MovieQuote(
 	'Magic Mirror on the wall, who is the fairest one of all?',
 	'Snow White and The Seven Dwarves',
+	1937,
 	['movies'],
 	quotes
 );
 
-var quote70 = new Quote(
+var quote70 = new MovieQuote(
 	'Just when I thought I was out, they pull me back in.',
 	'The Godfather: Part III',
+	1990,
 	['movies'],
 	quotes
 );
@@ -578,16 +603,18 @@ var quote81 = new Quote(
 	quotes
 );
 
-var quote82 = new Quote(
+var quote82 = new BookQuote(
 	'If you want to rebel, rebel from inside the system.That\'s much more powerful than rebelling outside the system.',
-	'Marie Lu, Legend',
+	'Marie Lu', 
+	'Legend',
 	['politcal','books'],
 	quotes
 );
 
-var quote83 = new Quote(
+var quote83 = new BookQuote(
 	'Supreme excellence consists of breaking the enemy\'s resistance without fighting.',
-	'Sun Tzu, The Art of War',
+	'Sun Tzu', 
+	'The Art of War',
 	['political','books'],
 	quotes
 );
